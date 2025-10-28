@@ -1,4 +1,5 @@
-![ANÁLISIS DE RIESGOS Grupo 3](assets/Logo1.png)
+[AnalisisDeRiesgos.md](https://github.com/user-attachments/files/23197684/AnalisisDeRiesgos.md)
+![](assets/AnalisisRiesgos.png "Análisis de Riesgos")
 
 [**1\. Introducción	1**](#1.-introducción)
 
