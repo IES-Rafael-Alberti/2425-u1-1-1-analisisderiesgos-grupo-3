@@ -1,5 +1,5 @@
 [AnalisisDeRiesgos.md](https://github.com/user-attachments/files/23197684/AnalisisDeRiesgos.md)
-![][image1]
+![](assets/AnalisisRiesgos.png "Análisis de Riesgos")
 
 [**1\. Introducción	1**](#1.-introducción)
 
