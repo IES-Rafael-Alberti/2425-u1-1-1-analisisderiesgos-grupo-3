@@ -87,24 +87,32 @@ La identificación de salvaguardas ha sido aproximada basándonos en los estánd
 
 | Tipo | Medida actual | Observaciones |
 | ----- | ----- | ----- |
-| Técnica | Firewall y antivirus | Configurado por departamento TICSI |
-| Organizativa | Cumplimiento RGPD | Correcto y documentado |
-| Técnica | Copias de seguridad locales | No externalizadas; riesgo físico |
-| Técnica | Segmentación de red | Solo conocida por el departamento TICSI |
-| Técnica | Copias de seguridad | Copias de seguridad físicas y en la nube |
-| Física | Seguridad subcontratada | Adecuada, pero limitada a accesos físicos |
-| Legal | Consultoría RGPD aprobada | Llevada a cabo por depto. legal |
+| Técnica | Control estricto de acceso y autenticación | Para información sensible de clientes, empleados, servicios en la nube,etc. |
+| Técnica | Backups automatizados para servidor de archivos | Configurado por departamento TICSI |
+| Técnica | Firewall y segmentación de red | Para proteger equipos y red corporativa. |
+| Técnica | Backups locales y en la nube para equipos de trabajo | En discos duros desconectados; deben estar comprobadas y ser frecuentes  |
+| Técnica | Software antimalware | Tanto para nuestros servidores como para los equipos de trabajo |
 | RRHH | Formación de los empleados | Llevada a cabo por RRHH y TICSI  |
 
 ## 5.2 Vulnerabilidades/Debilidades {#5.2-vulnerabilidades/debilidades}
 
 Las vulnerabilidades que hemos descrito son el resultado de todo aquello que nuestras salvaguardas no pueden cubrir. Intentamos crear una protección lo más completa posible pero, además de todos aquellos riesgos que debemos asumir por limitaciones técnicas y presupuestarias, pero existen vulnerabilidades y debilidades existentes ante las que no podemos hacer frente directamente.
 
+# 
+
 | Tipo | Descripción |
 | ----- | ----- |
 | Dependencia de terceros | Alojamiento web en la nube |
-| Control limitado sobre la web externa | Posibles brechas no detectadas |
+| Dependencia de terceros | Copias de seguridad en la nube |
+| Técnica | Ataques de malware y virus |
+| Técnica | Pérdida o corrupción de datos |
+| Técnica | Propagación de ataques en red  interna |
+| Técnica | Destrucción por desastre físico |
+| Técnica | Accesos externos no autorizados |
 | Carencia de gestión de accesos centralizada | Contraseñas débiles o compartidas |
+| RRHH/ Técnica | Phishing y errores humanos |
+
+# 
 
 # **6\. Evaluación y cálculo del riesgo** {#6.-evaluación-y-cálculo-del-riesgo}
 
